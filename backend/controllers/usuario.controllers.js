@@ -9,7 +9,7 @@ const getUsuario = async (req, res)=>{
     } catch (error) {
         console.log(error);
     }
-}
+};
 
 const postUsuario = async (req, res)=>{
     const UsuarioBody = new Usuario(req.body)
