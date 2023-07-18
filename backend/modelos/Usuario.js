@@ -22,7 +22,7 @@ const usuarioSchema = mongoose.Schema({
     type:String,
     required: true,
     default: 'USER',
-    enum: ['ADMIN', 'USER']
+    
    },
    estado: {
     type:Boolean,
